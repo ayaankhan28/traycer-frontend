@@ -1,6 +1,8 @@
 // WebSocket message types
 export enum MessageType {
   CHAT = 'chat',
+  THINKING = 'thinking',
+  DEEP_THINKING = 'deep_thinking',
   NOTIFICATION = 'notification',
   STATUS = 'status',
   ERROR = 'error',
